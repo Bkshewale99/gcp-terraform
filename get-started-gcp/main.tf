@@ -15,5 +15,6 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "GCS" {
-  name = "bks-tf"
+  name = "bks-tf-up-09768"
+  location = "us-central1"
 }
