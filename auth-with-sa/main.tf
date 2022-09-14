@@ -16,5 +16,5 @@ provider "google" {
 }
 
 resource google_storage_bucket "GCS1"{
-  name = "bucket-from-tf-using-sa"
+  name = "bucket-from-tf-using-sa-09"
 }
